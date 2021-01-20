@@ -12,16 +12,18 @@
 <body>
     <nav class="navigation max-width-1 m-auto font2">
         <div class="nav-left">
-            <span>Blog Blog</span>
+            <span>Blog</span>
             <ul>
-                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
                 <li><a href="/contact.html">Contact</a></li>
-                <li><a href="/search.html">Search</a></li>
             </ul>
         </div>
         <div class="nav-right">
-            <input class="form-input font1" type="text" placeholder="Search Article">
-            <button class="btn font1">Search</button>
+            <form action="search.html" method="get"> 
+                <input class="form-input font1" name="query" type="text" placeholder="Search Article">
+                <button class="btn font1">Search</button>
+            </form>
         </div>
     </nav>
     <div class="max-width-1 m-auto"><hr></div>
@@ -51,7 +53,7 @@
         </div>
         <div class="home-article">
             <div class="home-article-image">
-                <img src="img/11.svg" alt="Article">
+                <img src="img/home.svg" alt="Article">
             </div>
             <div class="home-article-content font1">
                 <a href="/blog.html"><h3>Lorem ipsum dolor sit amet. lorem </h3></a>
